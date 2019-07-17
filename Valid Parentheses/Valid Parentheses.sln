@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Valid Parentheses", "Valid Parentheses\Valid Parentheses.vcxproj", "{81B69FD4-D966-4E71-A9C0-111FC64A663E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81B69FD4-D966-4E71-A9C0-111FC64A663E}.Debug|x64.ActiveCfg = Debug|x64
+		{81B69FD4-D966-4E71-A9C0-111FC64A663E}.Debug|x64.Build.0 = Debug|x64
+		{81B69FD4-D966-4E71-A9C0-111FC64A663E}.Debug|x86.ActiveCfg = Debug|Win32
+		{81B69FD4-D966-4E71-A9C0-111FC64A663E}.Debug|x86.Build.0 = Debug|Win32
+		{81B69FD4-D966-4E71-A9C0-111FC64A663E}.Release|x64.ActiveCfg = Release|x64
+		{81B69FD4-D966-4E71-A9C0-111FC64A663E}.Release|x64.Build.0 = Release|x64
+		{81B69FD4-D966-4E71-A9C0-111FC64A663E}.Release|x86.ActiveCfg = Release|Win32
+		{81B69FD4-D966-4E71-A9C0-111FC64A663E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48C8D667-3745-480F-949C-8563191B021D}
+	EndGlobalSection
+EndGlobal
