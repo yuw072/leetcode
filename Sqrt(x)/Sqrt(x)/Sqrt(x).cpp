@@ -1,4 +1,4 @@
-﻿// Sqrt(x).cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// Sqrt(x).cpp : https://leetcode-cn.com/problems/sqrtx/
 //2019.7.18
 
 #include <iostream>
