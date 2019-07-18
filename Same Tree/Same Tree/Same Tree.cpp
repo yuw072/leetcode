@@ -1,5 +1,5 @@
-﻿// Same Tree.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
+﻿// Same Tree.cpp : https://leetcode-cn.com/problems/same-tree/
+//2019.7.18
 
 #include <iostream>
 using namespace std;
