@@ -25,8 +25,8 @@ public:
 		{
 			size = bsize;
 			tempsize = asize;
-			result = bsize;
-			temp = b;
+			result = b;
+			temp = a;
 		}
 		char add = '0';//进位标志
 		int i = size-1;
@@ -34,17 +34,20 @@ public:
 		string temp0;
 		do
 		{
+			if (j == -1) { j = 0; }
+			cout << i <<j<< endl;
 			temp0 = addBit(result[i],temp[j],add);
 			result[i] = temp0[0];
 			add = temp0[1];
 			if (j == 0)
 			{
 				temp[0] = '0';
-				j++;
 			}
 			i--;
 			j--;
-		} while (add=='1'||j>0);
+			if (i == -1) { break; }
+		} while (add=='1'||j>=0);
+		if (add == '1')return '1' + result;
 		return result;
 	}
 	string addBit(char a, char b,char c) {
@@ -57,13 +60,14 @@ public:
 		if (a == '1' && b == '1' && c == '0') { return "01"; }
 		if (a == '1' && b == '1' && c == '1') { return "11"; }
 		//前面为值，后面为进位
+		return "00";
 	}
 };
 
 int main()
 {
 	string a = "11";
-	string b = "1";
+	string b = "110";
 	Solution test;
 	cout << test.addBinary(a, b) << endl;
 }
