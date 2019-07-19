@@ -1,5 +1,5 @@
-﻿// Symmetric Tree.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
+﻿// Symmetric Tree.cpp : https://leetcode-cn.com/problems/symmetric-tree/submissions/
+//2019.7.19
 
 #include <iostream>
 using namespace std;
